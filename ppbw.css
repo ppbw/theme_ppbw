@@ -1,0 +1,379 @@
+* {
+margin : 0;
+padding : 0;
+}
+#news {
+display : block;
+padding : 0 0 0;
+float : right;
+text-align : right;
+margin-top : 70px;
+margin-right : 10px;
+width : 300px;
+text-shadow : #ccc 0 1px 1px;
+}
+#twitter {
+float : right;
+display : inline;
+}
+#TreeBoxes {
+	width : 960px;
+	height : 260px;
+	padding : 0px 0px 0px 10px;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	top: 35px;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	border-radius:10px;
+}
+#box1 {
+position : absolute;
+float : left;
+top : 5px;
+margin-left : 0;
+}
+#box2 {
+position : absolute;
+float : left;
+top : 5px;
+margin-left : 316px;
+margin-right : 0;
+}
+#box3 {
+position : absolute;
+float : left;
+top : 5px;
+margin-left : 632px;
+}
+
+#sidebar {
+display : none;
+}
+#test {
+float : right;
+}
+.boximage {
+height : 240px;
+width : 400px;
+}
+.figurebox {
+border : #562178 solid 3px;
+height : 240px;
+overflow : hidden;
+width : 300px;
+border-radius : 10px;
+margin : 0;
+}
+.figurebox:hover {
+box-shadow : 0 5px 5px #333333;
+border : #25a2ff solid 3px;
+}
+figcaption.boxtext {
+position : relative;
+font-size : 190%;
+text-shadow : black 0 2px 2px;
+overflow : hidden;
+font-weight : bold;
+top : -200px;
+width : 250px;
+margin-left : 15px;
+}
+figcaption.boxtext:hover {
+text-shadow : #000 0 3px 3px;
+}
+figcaption.boxtext a {
+color : white;
+}
+figcaption.boxtext a:hover {
+text-decoration : none;
+color : #25a2ff;
+}
+header, footer, article, section, hgroup, nav, figure, #BlogPage{
+display : block;
+}
+body {
+font-size : 100%;
+color : #000;
+background-color : #fff;
+font-family : Verdana, Helvetica, Sans-serif;
+}
+a, a:visited {
+text-decoration : none;
+}
+a img {
+border : none;
+}
+h1, h2, h3 {
+font-family : "Trebuchet MS", "Trebuchet", "Lucida Grande", Verdana;
+}
+.pageheader {
+font-size : 135%;
+font-weight : normal;
+margin : 0 40px 10px;
+text-shadow : 0 1px 1px;
+}
+h2 {
+font-size : 2.2em;
+font-weight : normal;
+letter-spacing : 0.01em;
+}
+h3 {
+font-size : 1.8em;
+}
+h4 {
+font-weight : bold;
+margin : 8px 0 8px;
+font-size : 1.2em;
+}
+p {
+line-height : 1.5em;
+padding-bottom : 1em;
+}
+.post-info {
+font-size : 0.8em;
+text-align : right;
+margin-right : 20px;
+color : #ccc;
+}
+.marginLeft25 {
+margin-left : 25px;
+}
+.line {
+height : 1px;
+background-color : #24404c;
+border-bottom : 1px solid #416371;
+margin : 1em 0;
+overflow : hidden;
+}
+article .line {
+background-color : #ffffff;
+border-bottom-color : #ffffff;
+margin : 1.3em 0;
+}
+footer .line {
+margin : 2em 0;
+}
+nav {
+background : url(img/gradient_light.jpg) 50% 50% repeat-x #f8f8f8;
+padding : 0 5px;
+position : absolute;
+right : 0;
+top : 1em;
+border : #fcfcfc solid 1px;
+box-shadow : 0 1px 1px #333333;
+}
+.clear:after {
+content : ".";
+display : block;
+height : 0;
+clear : both;
+visibility : hidden;
+}
+nav ul li {
+display : inline;
+}
+nav ul li a, nav ul li a:visited {
+display : block;
+float : left;
+font-size : 1em;
+font-weight : bold;
+margin : 5px 2px;
+padding : 7px 10px 4px;
+text-transform : uppercase;
+color : #562178;
+}
+nav ul li a:hover {
+text-decoration : none;
+background-color : #25a2ff;
+color : #fff;
+}
+.nav-current {
+text-decoration : none;
+background-color : #25a2ff;
+color : #fff;
+}
+nav, article, nav ul li a, figure, #BlogPage{
+border-radius : 10px;
+}
+.social {
+float : right;
+text-align : right;
+padding-right : 10px;
+margin-top : -45px;
+}
+.HomeText {
+float : left;
+text-align : left;
+width : 60%;
+color : #fff;
+}
+.LastTweet {
+float : right;
+text-align : left;
+width : 30%;
+height : 100%;
+background : #fff;
+padding : 10px;
+color : #000;
+border-radius : 10px;
+}
+a.facebook-link, a.twitter-link, a.gplus-link {
+display : inline-block;
+padding-top : 3px;
+height : 32px;
+padding-right : 35px;
+}
+a.facebook-link {
+background : url("img/facebook-32x32.png") center right no-repeat;
+}
+a.twitter-link {
+background : url("img/twitter-32x32.png") center right no-repeat;
+}
+a.gplus-link {
+background : url("img/googleplus-32x32.png") center right no-repeat;
+}
+.exposant {
+color : red;
+}
+.note {
+font-size : 0.7em;
+}
+#page {
+width : 960px;
+margin : 0 auto;
+position : relative;
+}
+.post-content {
+padding : 20px;
+color : #ffffff;
+}
+.post-content ul, ol {
+margin-left : 30px;
+}
+.post-content a, .post-content a:visited, .HomeText a, .HomeText a:visited {
+color : #25a2ff;
+text-decoration : none;
+outline : none;
+}
+.post-content a:hover, .HomeText a:hover {
+text-decoration : underline;
+}
+figure {
+border : #142830 solid 3px;
+float : right;
+height : 220px;
+margin-left : 15px;
+overflow : hidden;
+width : 400px;
+}
+figure.vertical {
+width : 220px;
+height : 400px;
+}
+figure.carre {
+width : 300px;
+height : 300px;
+}
+figure:hover {
+box-shadow : 0 0 2px #4d7788;
+}
+figure img {
+width : 100%;
+height : 100%;
+margin-left : 0;
+}
+#BlogPage {
+margin-top : 30px;
+padding : 10px 0px 0px;
+background-color : #562178;
+border-radius : 10px;
+height : 80%;
+}
+#HomePage {
+margin-top : 60px;
+padding : 10px 10px 10px;
+background-color : #562178;
+border-radius : 10px;
+height : 80%;
+}
+
+#PageContentMenu p, #PageContentMenu h4 {
+margin : 10px 30px;
+text-align : justify;
+}
+
+#PageContentMenu .toc {
+padding : 10px;
+background : #fff;
+color : #562178;
+border : white solid 2px;
+margin-bottom : 10px;
+text-shadow : none;
+column-count : 2;
+column-gap : 20px;
+border-radius : 10px;
+}
+#PageContentMenu .toc ul {
+margin : 5px;
+list-style-type : none;
+font-size : 1.3em;
+font-weight : bold;
+}
+#PageContentMenu .toc ul ul {
+list-style-type : square;
+font-size : 0.8em;
+font-weight : normal;
+}
+a.top {
+float : right;
+margin : -35px -30px 0 0;
+height : 20px;
+width : 20px;
+background : url("img/arrow_back.png") no-repeat;
+}
+a.top:hover {
+text-decoration : none;
+}
+a.back {
+background : url("img/arrow_back.png") no-repeat;
+padding-left : 20px;
+display : block;
+height : 20px;
+margin-bottom : -30px;
+}
+footer {
+margin-bottom : 30px;
+text-align : center;
+font-size : 0.825em;
+}
+footer p {
+margin-bottom : -2.5em;
+color : #999999;
+position : relative;
+}
+footer a, footer a:visited {
+color : #999999;
+display : block;
+padding : 2px 4px;
+z-index : 100;
+position : relative;
+}
+footer a:hover {
+color : #25a2ff;
+}
+footer .left {
+float : left;
+margin-left : 40px;
+}
+footer .right {
+float : right;
+margin-right : 40px;
+}
+.BlogPageTitle {
+font-size : 2.5em;
+font-weight : normal;
+margin-left : 20px;
+color : #fff;
+}

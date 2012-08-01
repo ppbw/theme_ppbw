@@ -1,0 +1,67 @@
+<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="{{tpl:BlogLanguage}}" lang="{{tpl:BlogLanguage}}">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="ROBOTS" content="{{tpl:BlogMetaRobots}}">
+	<meta name="description" lang="{{tpl:BlogLanguage}}" content="{{tpl:BlogDescription cut_string="180" encode_html="1"}}" >
+	<title>{{tpl:BlogName encode_html="1"}}</title>	  
+	{{tpl:include src="_head.html"}}
+	<script type="text/javascript" src="{{tpl:BlogThemeURL}}/js/post.js"></script>
+	<script type="text/javascript">
+		//<![CDATA[
+		var post_remember_str = '{{tpl:lang Remember me on this blog}}';
+		//]]>
+	</script>
+</head>
+
+<body>
+
+<section id="page">
+    
+{{tpl:include src="_top.html"}}
+                          
+<section id="TreeBoxes">
+	
+		<figure class="figurebox"  id="box1">
+			<a href="quisontlespirates.php"><img class="boximage" src="{{tpl:BlogThemeURL}}/img/QuiSontLesPirates.jpg" alt="Qui sont les pirates?"/></a>
+			<figcaption id="box1text" class="boxtext"><a href="{{tpl:BlogURL}}pages/Qui-sont-les-pirates">Qui sont les pirates ?</a></figcaption>
+		</figure>
+	
+	
+		<figure class="figurebox" id="box2">
+			<a href="philosophiepirate.php"><img class="boximage" src="{{tpl:BlogThemeURL}}/img/Philosophie.jpg" alt="Philosophie Pirate"/></a>
+			<figcaption id="box2text" class="boxtext"><a href="{{tpl:BlogURL}}pages/Qu-est-ce-que-le-parti-pirate">Qu'est ce que le Parti Pirate ?</a></figcaption>
+		</figure>
+	
+	
+		<figure class="figurebox" id="box3">
+			<a href="propositionspirates.php"><img class="boximage" src="{{tpl:BlogThemeURL}}/img/Proposition.jpg" alt="Propositions pour les élections 2012"/></a>
+			<figcaption id="box3text" class="boxtext"><a href="{{tpl:BlogURL}}pages/Pourquoi-voter-pirate-en-2012">Pourquoi voter pirate en 2012 ?</a></figcaption>
+		</figure>
+	 
+</section>
+
+<section id="HomePage">
+	<div class="clear">
+		<div class="HomeText">
+			<p><b>Nous sommes des pirates, pourquoi pas vous?</b></p>
+			<p>Vous voulez participer? venez discuter sur le <a href="http://forum.pirateparty.be/forumdisplay.php?fid=22" class="external text" rel="nofollow">forum</a>, ou contribuer à notre  <a href="http://www.pirateparty.be/wiki/index.php/Crew_BW">wiki</a>.</p>
+			<!-- <form action="http://admin.infomaniak.ch/mail/mailinglist_process.php" method="POST">
+			<p>Inscrivez-vous à notre Newsletter :					
+			<input name="maillist" type="hidden" value="cHAuYmUuYnJhYmFudHdhbGxvbkBwaXJhdGVwYXJ0eS5iZQ==" />
+			<input name="action" type="hidden" value="add" />
+			<input name="url" type="hidden" value="http://pirateparty.be/?page_id=65&#038;lang=en" />
+			<input name="email" size="20" type="text" placeholder="Email" />
+			<input name="add" type="submit" value="Go" /></p></form> -->	
+		</div>
+		<div class="LastTweet">
+			<?php dernierTweet(); ?>CCCCCCCCCCCCC <!-- Derniers Tweet de @pp_bw -->
+		</div>
+	</div>
+</section>
+
+{{tpl:include src="_footer.html"}}
+
+</section> <!-- End #page -->
+</body>
+</html>
